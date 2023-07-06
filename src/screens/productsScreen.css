@@ -1,0 +1,91 @@
+.productsScreen {
+  display: block;
+  width: 100%;
+}
+
+.productsInsideProductsScreen {
+  padding-top: 100px;
+  display: flex;
+  width: 100%;
+}
+.labelProducts {
+  padding-top: 0px;
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 90px;
+}
+.insideLabelProducts {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+
+.Products {
+  z-index: 0;
+  padding-bottom: 100px;
+  width: 77%;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+.myclassForHeading {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 35px;
+}
+.productItemTop {
+  width: 100%;
+}
+.productItem {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  box-shadow: 0 2px 4px #ccc;
+  height: 80px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+.productID {
+  width: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+.productName {
+  width: 24%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.productBrand {
+  width: 24%;
+  align-items: center;
+  justify-content: center;
+}
+
+.productExpiryDate {
+  width: 16%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 30px;
+}
+.productUnitPrice {
+  width: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.productStock {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+      

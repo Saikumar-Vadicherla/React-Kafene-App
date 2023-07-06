@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+*{
+  box-sizing: border-box;
+  
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  background-color: rgb(246, 247, 251);
+}
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* border: 1px solid black; */
+  height: 70px;
+  box-shadow: 0 2px 4px #ccc;
+  z-index: 10;
+  position: fixed;
+  background-color: #fff;
+}
+.logo{
+  margin-left: 50px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+}
+.kafene{
+  margin-left: 15px;
+  font-size: 20px;
+  color: black;
+}
+.Links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid black; */
+  margin-left: 50px;
+  width: 300px;
+  list-style-type: none;
+  }
+ 
+.link{
+  text-decoration: none;
+  color: black;
+  padding-bottom: 22px;
+  /* border-bottom: 3px solid #20B883; */
+}
+.link:hover{
+  border-bottom: 3px solid #20B883; 
+}
+.LogoutBtn{
+  margin-left: 850px;
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  color: #fff;
+  background-color: #20B883;
+  border: none;
+}
+
+/* -----------------------ordersScreen----------- */
+.ordersScreen{
+  display: block;
+}
+
+.ordersInsideOrdersScreen{
+  padding-top: 100px;
+  display: flex;
+}
+.label{
+  padding-top: 0px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 90px;
+}
+.insideLabel{
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+
+.orders{
+  z-index: 0;
+  padding-bottom: 100px;
+  width: 75%;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.myclassForHeading{
+  display: flex;
+  width:100% ;
+  justify-content: space-around;
+}
+.myclass{
+  display: flex;
+  width:100% ;
+  justify-content: space-around;
+  box-shadow: 0 2px 4px #ccc;
+  height: 80px;
+  margin-top: 10px;
+  background-color: #fff;
+}
+.id{
+  width:20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+.customer{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.date{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.order-date{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.orderdate{
+    margin: 0;
+}
+.time{
+  margin: 0;
+  color: gray;
+}
+.amount{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 30px;
+}
+.status{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

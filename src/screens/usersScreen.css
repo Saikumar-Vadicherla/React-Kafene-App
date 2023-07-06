@@ -1,0 +1,74 @@
+.body {
+    background-color: rgb(246, 247, 251);
+  }
+  
+  .users-screen {
+    padding-top: 100px;
+  }
+  
+  .h1-in-users {
+    margin-left: 80px;
+  }
+  
+  .inside-label-users {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    margin-left: 80px;
+    margin-top: 0;
+    height: 60px;
+  }
+  
+  .search-bar {
+    border: none;
+    border-bottom: 2px solid green;
+    outline: none;
+    width: 70%;
+    height: 50px;
+  }
+  
+  .button {
+    width: 20%;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: #20b883;
+    color: #fff;
+  }
+  
+  .users-div {
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: 150px;
+  }
+  
+  .users-head,
+  .users {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    margin-top: 10px;
+    background-color: #fff;
+  }
+  
+  .user-id,
+  .user-avatar,
+  .user-full-name,
+  .user-dob,
+  .user-gender,
+  .user-current-location {
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .user-gender {
+    width: 12%;
+  }
+  
+  .user-current-location {
+    width: 24%;
+  }
+  

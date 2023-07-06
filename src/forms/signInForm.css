@@ -1,0 +1,48 @@
+.signInForm{
+    padding-top: 150px;
+    /* margin-top: 200px; */
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin-left: 32%;
+    height: 300px;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px #ccc;
+    background-color: #fff;
+}
+.form h1{
+       margin-left: 25px;
+}
+.userNamePassword{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+    height: 200px;
+   
+}
+.userName{
+    border: none;
+    border-bottom: 2px solid green;
+    outline: none;
+    width: 90%;
+    height: 50px;
+}
+.password{
+    border: none;
+    border-bottom: 2px solid green;
+    outline: none;
+    width: 90%;
+    height: 50px;
+}
+.signInButton{
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: #20B883;
+    color: #fff;
+}
